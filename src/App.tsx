@@ -1029,7 +1029,7 @@ function MenuPage() {
           style={{ border:'none', display:'block', minHeight:'clamp(480px,70vh,860px)', background:'transparent' }}
           allow="fullscreen; web-share; clipboard-write"
           allowFullScreen
-          title="Café Jardin Menu"
+          title="Ekofini&Co. Menu"
         />
       </div>
 
@@ -1221,7 +1221,7 @@ function ReservePage() {
           <div style={{ marginBottom:'2.5rem' }}>
             <p style={{ ...lbl, marginBottom:'1rem' }}>Location</p>
             <p style={{ color:'rgba(255,255,255,0.6)', fontSize:14, lineHeight:1.9, fontFamily:"'Jost',sans-serif", fontWeight:300, letterSpacing:'0.04em', margin:0 }}>
-              R102, East London<br/>South Africa
+              2 Esplanade Street, Quigney, East London<br/>South Africa
             </p>
           </div>
           <div style={{ marginBottom:'2.5rem' }}>
