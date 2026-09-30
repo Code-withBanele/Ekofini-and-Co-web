@@ -1,0 +1,10 @@
+{
+  "description": "Enhance restaurant photography with professional corrections for lighting, color, and detail, ensuring images are ready for impactful website presentation.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
