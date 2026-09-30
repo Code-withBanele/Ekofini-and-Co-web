@@ -1043,7 +1043,7 @@ function MenuPage() {
         <p style={{ ...lbl, margin:0, letterSpacing:'0.18em' }}>
           Prices include VAT · Menu subject to change
         </p>
-        <a href="https://wa.me/0617276152?text=Hi%20Ekofini%26Co.%2C%20I%27d%20like%20to%20make%20an%20enquiry." style={{
+        <a href="https://wa.me/+27617276152?text=Hi%20Ekofini%26Co.%2C%20I%27d%20like%20to%20make%20an%20enquiry." style={{
           color:'rgba(255,255,255,0.38)', fontSize:11, letterSpacing:'0.22em',
           textTransform:'uppercase', fontFamily:"'Jost',sans-serif", fontWeight:300,
           textDecoration:'none', display:'flex', alignItems:'center', gap:8, transition:'color 0.3s',
@@ -1084,7 +1084,7 @@ function ReservePage() {
       `Time: ${form.time}\n` +
       `Guests: ${form.guests}\n` +
       (form.notes ? `Notes: ${form.notes}` : '');
-    window.open(`https://wa.me/0617276152?text=${encodeURIComponent(msg)}`, '_blank');
+    window.open(`https://wa.me/+27617276152?text=${encodeURIComponent(msg)}`, '_blank');
     setSubmitted(true);
   };
 
@@ -1235,7 +1235,7 @@ function ReservePage() {
             <p style={{ ...lbl, marginBottom:'1rem' }}>Contact directly</p>
             <div style={{ display:'flex', flexDirection:'column', gap:'0.6rem' }}>
               {[
-                { label:'+27617276152',        href:'https://wa.me/0617276152' },
+                { label:'+27617276152',        href:'https://wa.me/+27617276152' },
               
                 
               ].map(({ label, href }) => (
